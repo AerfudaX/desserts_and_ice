@@ -432,3 +432,11 @@ minetest.register_craft({
 		{"desserts_and_ice:maplesyrup","desserts_and_ice:syrup_bottle"},
 	}
 })
+minetest.register_craft({
+    output = "desserts_and_ice:SyrupTap",
+	recipe = {
+	    {"default:steel_ingot","default:stick",""},
+	    {"","default:stick",""},
+	    {"","",""},
+	},
+}
