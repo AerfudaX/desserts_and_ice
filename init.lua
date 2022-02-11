@@ -390,6 +390,7 @@ minetest.register_node("desserts_and_ice:maplesyrup", {
 	},
 	groups = {snappy = 2, dig_immediate = 3, flammable = 2,
        	attached_node = 1},
+	on_use = minetest.item_eat(7)
 })
 
 minetest.register_craft({
